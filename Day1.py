@@ -1,5 +1,5 @@
 maxList = []
-with open('Q1.txt', 'r') as file:
+with open('Day1.txt', 'r') as file:
     p = file.read()
     ElfCals = [[line.split(" ")[0] for line in calCounts.split("\n")] for calCounts in p.split("\n\n")]
     for x in range(0, len(ElfCals)):        
