@@ -1,6 +1,6 @@
 Score = 0
 Score2 = 0
-with open('Q2.txt', 'r') as file:
+with open('Day2.txt', 'r') as file:
     for x in file:
         f1=x[0]
         f2=x[2]
