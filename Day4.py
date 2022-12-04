@@ -30,7 +30,6 @@ with open('Day4.txt', 'r') as file:
             for o in range(Elf2[0],Elf2[1]):
                 if o in range(Elf1[0],Elf1[1]+1) and n==0:
                     count2 += 1
-                    n = 0
                     break
 
 
